@@ -170,6 +170,12 @@ font-size: 18px;
 font-weight: 400;
 
 }
+.online{
+    width: 342px;
+height: 400px;
+
+
+}
 .banner-container{
 display: flex;
 gap: 24px;
@@ -214,7 +220,10 @@ font-weight: 500;
    
    }
    .images{
-   width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
    
    }
    .skills-container{
@@ -224,6 +233,44 @@ font-weight: 500;
    .gamer{
     /* flex-direction: column;
     text-align: center; */
+   }
+   .banner-container{
+    flex-direction: column;
+    
+   }
+   .banner-container{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+   }
+   .container{
+    flex-direction: column;
+    text-align: center;
+   }
+   .container-title{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+   }
+   .container-description{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+   }
+   .online{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+   }
+   .skill-description{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
    }
  
 }
@@ -258,11 +305,53 @@ font-weight: 500;
    
    }
    .images{
-   width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+
    }
    .skills-container{
     flex-direction: column;
     text-align: center;
+   }
+   .banner-container{
+    flex-direction: column;
+    
+   }
+   .banner-container{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+   }
+   .container{
+    flex-direction: column;
+    text-align: center;
+   }
+   .container-title{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+   }
+   .container-description{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+   }
+   .online{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+   }
+   .skill-description{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
    }
     
 }
