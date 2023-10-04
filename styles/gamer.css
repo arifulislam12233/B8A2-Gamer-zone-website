@@ -250,6 +250,34 @@ bottom: 300px;
     left: -100px;
 }
 
+/* facts section css */
+
+
+.facts-card-container{
+margin-top: 250px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.card{
+    width: 160px;
+    flex: 0 0 calc(20%-20px);
+    padding: 20px;
+    margin: 10px;
+ 
+    
+}
+.card-stats{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-around;
+  
+    
+}
+
+
 /* mobile device responsive */
 @media screen and (max-width: 576px) {
     nav{
@@ -358,6 +386,29 @@ flex-direction: column;
     margin-left: auto;
     width: 20%;
 }
+
+
+/* facts section responsive */
+
+
+.facts-card-container{
+    /* margin-top: 250px;
+    
+    flex-wrap: wrap;
+    justify-content: center; */
+    /* flex-direction: column; */
+    margin-right: auto;
+    margin-left: auto;
+    
+    }
+    .card{
+        width: 100px;
+        flex: 0 0 calc(33.3%-20px);
+        /* padding: 20px;
+        margin: 10px; */
+        display: block;
+        
+}
 }
 
 
@@ -464,6 +515,28 @@ flex-direction: column;
         margin-left: auto;
         width: 20%;
     }
+    
+/* facts section responsive tablet */
+
+
+.facts-card-container{
+    /* margin-top: 250px;
+    
+    flex-wrap: wrap;
+    justify-content: center; */
+    /* flex-direction: column; */
+    margin-right: auto;
+    margin-left: auto;
+    
+    }
+    .card{
+        width: 100px;
+        flex: 0 0 calc(25%-20px);
+        /* padding: 20px;
+        margin: 10px; */
+        display: block;
+        
+}
     
 }
 
